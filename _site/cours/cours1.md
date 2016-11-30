@@ -1,11 +1,3 @@
----
-layout: cours
-title: Les CMS 
----
-
-
-
-
 #Qu'est ce qu'un CMS ?
 Système déployable permettant de créer un site internet, la plupart des CMS fournissent une solution prête à l'emploi, plus téchniquement ce sont des dossiers contenant des pages web, feuilles de styles et autres languages. Le tout fonctionnant le plus souvent avec une base de donnée.
 

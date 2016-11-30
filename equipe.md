@@ -1,6 +1,6 @@
 ---
 layout: default
-title: titre de ma page
+title: L'équipe
 ---
 
 Page de l'équipe

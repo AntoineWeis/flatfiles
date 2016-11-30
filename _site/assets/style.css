@@ -1,0 +1,32 @@
+main {
+    max-width: 45 rem;
+    margin : auto;
+
+}
+
+
+header {
+    background : url(../assets/images/background.jpg);
+    color : white ;
+    text-transform: uppercase;
+    
+
+    font-family: 'Oswald', sans-serif;
+font-size : 80px;
+  padding : 7%;
+    margin : auto;
+    
+}
+
+a {
+    
+    font-family: 'Oswald', sans-serif;
+font-size : 40px;
+    text-decoration: none;
+    color : white;
+    background-color : rgb(234, 9, 9);
+   padding-left : 100px;
+    padding-right : 100px;
+    text-transform: uppercase;
+
+}
