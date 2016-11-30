@@ -2,5 +2,3 @@ title: titre de mon site
 description: Récupération de cette déscription grace au fichier yml
 baseline: un bon site à l'ancienne
 copyright: Antoine.W
-
-{{site.baseurl}}
