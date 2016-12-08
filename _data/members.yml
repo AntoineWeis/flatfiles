@@ -1,0 +1,9 @@
+- nom: Jean Web
+  hobbies: 
+    - Vélo
+    - Photo
+    - Jeux vidéo
+  cursus: Reddit
+  motivation: finir un site statique
+  avatar: ../assets/avatar/avatar.png
+

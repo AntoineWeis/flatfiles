@@ -1,0 +1,126 @@
+<html>
+<head>
+ <meta charset="UTF-8"> 
+<title> - titre de mon site</title>
+<link rel="stylesheet" href="../assets/style.css">
+    
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+</head>
+    
+<body>
+    <header style="background-color:powderblue;"> Bienvenue sur mon Blog  </header>
+    
+    <a href="/cours/boucles.html"></a>
+
+    <a href="/cours/comparatifCMS.html">Les CMS</a>
+
+    <a href="/contact.html">Contact</a>
+
+    <a href="/equipe.html">L'équipe</a>
+
+    <a href="/">titre de ma page</a>
+
+
+
+<ul>
+  
+</ul>
+    
+    
+    <main>
+        
+<h2 id="gnralits">Généralités</h2>
+
+<p>Les valeurs présentent dans l’en-tête sont en YAML, Front Matter.</p>
+
+<hr />
+
+<h1 id="structure">Structure</h1>
+
+<p>Création du fichier <em>page.html</em> dans le dossier layouts =&gt; imbrication de template.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Accueil</th>
+      <th>Contact</th>
+      <th>Equipe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>layout : default</td>
+      <td>layout : page</td>
+      <td>layout : page</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>#titre</td>
+      <td>#titre</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Flatfiles, fichiers MD.
+ dossier site, répertoire des fichier générés, à ne pas modifier.</p>
+
+<hr />
+
+<h2 id="boucles">Boucles</h2>
+
+<p>&lt; a href=”page.url”&gt;&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;Les CMS&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;Contact&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;L’équipe&lt;/a &gt;</p>
+
+<p>&lt; a href=”page.url”&gt;titre de ma page&lt;/a &gt;</p>
+
+<p>Permet d’afficher le titre de la page dans la page elle-même, sans fichier de template ou autre.</p>
+
+<hr />
+
+<h2 id="billets-de-blog">Billets de blog</h2>
+
+<p>Créer dossier _posts pour les posts et dans le dossier _layouts le fichier posts.html.</p>
+
+<p>2016-11-09-titre.md</p>
+
+<p>post.date / post.title</p>
+
+<p>Utiliser les boucles pour afficher les articles.</p>
+
+<p>Dans index.html :</p>
+
+<p>&lt; h3&gt;chuck norris&lt;/h3 &gt;
+  &lt; p&gt;&lt;p&gt;Remember the Soviet Union? They decided to quit after watching a DeltaForce marathon on Satellite TV There is no theory of evolution. Just a list of creatures Chuck Norris has allowed to live Chuck Norris doesn’t go hunting… CHUCK NORRIS GOES KILLING, Fool me once, shame on you. Fool Chuck Norris once and he will roundhouse you in the face. Most people have 23 pairs of chromosomes. Chuck Norris has 72… and they’re all poisonous Police label anyone attacking Chuck Norris as a Code 45-11… a suicide, Chuck Norris invented Chemical-X. He shrugs it off as “a bad case of diarrhea.”. Chuck Norris is my Homeboy. There is no theory of evolution. Just a list of animals Chuck Norris allows to live Remember the Soviet Union? They decided to quit after watching a DeltaForce marathon on Satellite TV.&lt;/p&gt;
+&lt;/p &gt;
+  &lt; a href=”/2016/11/29/chuck.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+
+<p>&lt; h3&gt;Billet&lt;/h3 &gt;
+  &lt; p&gt;
+&lt;/p &gt;
+  &lt; a href=”/2016/11/01/billet.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+
+<p>&lt; h3&gt;Alsace&lt;/h3 &gt;
+  &lt; p&gt;&lt;p&gt;Lorem Elsass ipsum sagittis gravida s’guelt hopla eleifend hop amet Oberschaeffolsheim Strasbourg knepfle aliquam Spätzle Coopé de Truchtersheim Wurschtsalad Verdammi rossbolla barapli baeckeoffe commodo libero, flammekueche hopla kuglopf semper nullam salu adipiscing leverwurscht gewurztraminer condimentum mamsell Salut bisamme kartoffelsalad Pellentesque ante ornare tellus Salu bissame hopla Huguette yeuh. Carola und sit dignissim bredele Pfourtz ! placerat tellus amet tchao bissame geïz libero, vielmols, ch’ai ac dolor in, Kabinetpapier ullamcorper sit Gal. schnaps Morbi Chulien non messti de Bischheim vulputate sit id, lacus consectetur Hans gal geht’s nüdle knack jetz gehts los risus, sed quam, blottkopf, wie auctor, senectus porta leo Yo dû. hoplageiss kougelhopf amet, dui leo Racing. Gal ! mänele picon bière mollis Mauris morbi libero. schneck lotto-owe réchime tristique Oberschaeffolsheim eget merci vielmols schpeck ac météor turpis, sed so ornare Heineken rucksack Miss Dahlias suspendisse bissame pellentesque rhoncus non Richard Schirmeck habitant Christkindelsmärik et elementum purus hopla id ftomi! quam. chambon munster varius Chulia Roberstau wurscht elit turpis DNA, .&lt;/p&gt;
+&lt;/p &gt;
+  &lt; a href=”/2016/02/13/alsace.html”&gt;Lire l’article seul&lt;/a &gt;</p>
+
+<p>Cette boucle utilise des méthodes communes à plusiers CMS, pour afficher ke titre, l’url, le contenu, le résumé…</p>
+
+<p>-&gt; Placer la boucle dans la page avec l’article.</p>
+
+    </main>
+    <footer> <p>Description : Récupération de cette déscription grace au fichier yml</p> 
+<p>Baseline : un bon site à l'ancienne</p>
+<p>Copyright : Antoine.W</p> </footer>  
+
+
+
+
+</body>
