@@ -2,7 +2,7 @@
 
 # Initiation à github et au markdown
 
-### Mardown
+### Markdown
 -> langage de balise léger pour des fichiers clairs et lisibles, présentation aérée, pratique pour des fichiers d'explication tels que les fichiers **readme.md**
 => Flatfiles, des fichiers plats, uniquement du texte
 

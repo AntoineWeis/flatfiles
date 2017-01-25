@@ -2,3 +2,38 @@ title: titre de mon site
 description: Récupération de cette déscription grace au fichier yml
 baseline: un bon site à l'ancienne
 copyright: Antoine.W
+
+collections :
+	-products
+
+
+snipcart_api_key: 'S_NWIzYjBkM2YtZjRiYS00NzIzLWIzZjUtYWZlYTBjODFjODdlNjM2MjA5NTE0MDY2NDU2NzQ1'
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: products
+  values:
+    layout: product
+    permalink: "/products/:title/"
+    name: ''
+    price: 0.0
+    sku: ''
+    image: ''
+    weight: 0.0
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
