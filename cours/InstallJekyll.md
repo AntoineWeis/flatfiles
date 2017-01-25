@@ -1,6 +1,6 @@
 # Overkyll Jekyll Theme
 
-![Screenshot of Overkyll](screenshot.png)
+
 
 ## Install as Gem Theme
 
